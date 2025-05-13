@@ -1,0 +1,126 @@
+@media (max-width: 768px) {
+    .container {
+        width: 768px;
+    }
+
+    .header {
+        padding: 33px 39px;
+    }
+
+    .welcome {
+        width: 768px;
+        height: 380px;
+        padding-left: 39px;
+    }
+
+    .welcome__card {
+        margin-top: 39px;
+        margin-left: 30px;
+    }
+
+    .welcome__description {
+        width: 330px;
+        margin-bottom: 40px;
+    }
+
+    .welcome__button {
+        padding: 18.5px 51.5px;
+    }
+
+    .welcome__title {
+        font-size: 40px;
+    }
+
+    .reproduction {
+        padding: 70px 39px;
+    }
+
+    .reproduction__header {
+        width: 690px;
+    }
+
+    .reproduction__title {
+        font-size: 30px;
+    }
+
+    .reproduction__cards-content {
+        grid-template-columns: repeat(2, 330px);
+        grid-template-rows: repeat(3, 730px);
+    }
+
+    .reproduction__card-img {
+        width: 290px;
+    }
+
+    #button1:checked~.reproduction__container .reproduction__cards {
+        transform: translateX(0%);
+    }
+
+    #button2:checked~.reproduction__container .reproduction__cards {
+        transform: translateX(-790px);
+    }
+
+    #button3:checked~.reproduction__container .reproduction__cards {
+        transform: translateX(-1580px);
+    }
+
+    .reproduction__card-button {
+        width: 290px;
+        height: 65px;
+    }
+
+    .news {
+        padding: 70px 39px;
+        height: 502px;
+        background: url(./images/news__background_tablet.jpg);
+    }
+
+    .news__header {
+        height: 60px;
+    }
+
+    .news__rank {
+        font-size: 30px;
+    }
+
+    .our-team {
+        margin: 70px 39px ;
+        flex-direction: column;
+    }
+
+    .our-team__img {
+        width: 510px;
+        height: 504px;
+    }
+
+    .our-team__card {
+        width: 690px;
+        margin: 0;
+        margin-top: 40px;
+        gap: 30px;
+    }
+
+    .our-team__title {
+        font-size: 30px;
+    }
+
+    .footer {
+        padding: 23px 39px;
+        flex-wrap: wrap;
+    }
+
+    .footer__logo-and-contact {
+        width: 690px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer__navigation {
+        margin: 0;
+    }
+
+    .footer__platforms {
+        margin-left: 75px;
+    }
+}
