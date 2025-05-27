@@ -76,6 +76,7 @@ a {
     font-weight: 500;
     font-size: 60px;
     line-height: 110%;
+    color: #2C2D35;
 }
 
 .welcome__title-span {
@@ -122,6 +123,7 @@ a {
     font-weight: 500;
     font-size: 40px;
     line-height: 110%;
+    color: #2C2D35;
 }
 
 .reproduction__buttons {
@@ -169,7 +171,7 @@ a {
 #button1:checked~.reproduction__header .reproduction__buttons .link1,
 #button2:checked~.reproduction__header .reproduction__buttons .link2,
 #button3:checked~.reproduction__header .reproduction__buttons .link3 {
-    background-color: #598D66;
+    background-color: #376B44;
     color: #F4F6F5;
     transition: .3s all ease;
 }
@@ -178,7 +180,7 @@ a {
     display: grid;
     gap: 30px;
     grid-template-columns: repeat(3, 350px);
-    grid-template-rows: repeat(2, 730px);
+    grid-template-rows: repeat(2, 720px);
 }
 
 .reproduction__card {
